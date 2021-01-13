@@ -8,5 +8,5 @@
 ```
 git clone https://github.com/it-web-pro/WEEK03-EXERCISE.git
 ```
-2. เปิดด้วยโฟลเดอร์ WEEK03-EXERCISE ด้วย VSCode
+2. เปิดโฟลเดอร์ที่ดาวน์โหลดมาด้วย VSCode
 3. เปิด Live Server และไปที่ http://localhost:5500
