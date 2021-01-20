@@ -1,4 +1,4 @@
-const title = "WEEK 3 - Exercise 2, Object"
+const title = "WEEK 3 - Exercise 3, Object"
 const problems = [
     {
         title: 'EXERCISE 3.1',
