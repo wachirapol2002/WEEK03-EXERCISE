@@ -31,7 +31,7 @@ const problems = [
     {
         title: 'PROBLEM 5.3',
         body: `
-            แก้ไขฟังก์ชัน \`removeBySplice(input)\`  
+            แก้ไขฟังก์ชัน \`replaceBySplice(input)\`  
             <br><br>
 
             ให้ใช้ฟังก์ชัน .splice() ในการ **เปลี่ยน (replace)** สมาชิกใน Array  
