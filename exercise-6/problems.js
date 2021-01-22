@@ -17,6 +17,11 @@ const problems = [
             \`\`\`
 
             **Note** LocalStorage สามารถบันทึกได้แค่ String เท่านั้น
+
+            <details>
+                <summary>Help</summary>
+                [วิธีการทำ Object หรือ Array ให้กลายเป็น JSON String](https://www.w3schools.com/js/js_json_stringify.asp)
+            </details>
         `,
         testcases: [
             {
@@ -34,7 +39,12 @@ const problems = [
             แก้ไขฟังก์ชัน \`read()\`
             <br><br>
 
-            ให้อ่าน \`people\` จาก Local Storage และแปลง String ที่อ่านได้ให้กลายเป็น Array
+            ให้อ่าน \`people\` จาก Local Storage และแปลง String ที่อ่านได้ให้กลายเป็น Array  
+
+            <details>
+                <summary>Help</summary>
+                [วิธีการทำ JSON String ให้กลายเป็น Array หรือ Object](https://www.w3schools.com/js/js_json_parse.asp)
+            </details>
         `,
         testcases: [
             {
