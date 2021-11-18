@@ -90,7 +90,7 @@ const app = new Vue({
                     ? line.substring(11)
                     : line
             )
-            return marked(lines.join('\n'))
+            return marked.parse(lines.join('\n'))
         },
         isEqual(a, b) {
             if (a === 'NO_INPUT' || b === 'NO_INPUT') return false
