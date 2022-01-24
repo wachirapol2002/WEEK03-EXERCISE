@@ -1,4 +1,4 @@
-const title = "WEEK 3 - Exercise 2, Object"
+const title = "WEEK 3 - Exercise 2, Data Type"
 const problems = [
     {
         title: 'EXERCISE 2.1',
@@ -73,22 +73,7 @@ const problems = [
             { input: "Anita Rose", expect: "Anita", result: null },
         ],
         run: getFirstName
-    },
-    {
-        title: 'EXERCISE 2.5',
-        body: `
-            แก้ไขฟังก์ชัน \`splitName(input)\`  
-            ให้ทำการแยก ชื่อต้นกับนามสกุล และ  
-            return เป็น Object ที่มี key เป็น firstName และ LastName
-        `,
-        testcases: [
-            { input: "Aariz Bennett", expect: { firstName: "Aariz", lastName: "Bennett" }, result: null },
-            { input: "Najma Shaffer", expect: { firstName: "Najma", lastName: "Shaffer" } , result: null },
-            { input: "Jill Schmitt", expect: { firstName: "Jill", lastName: "Schmitt" }, result: null },
-            { input: "Anita Rose", expect: { firstName: "Anita", lastName: "Rose" }, result: null },
-        ],
-        run: splitName
-    },
+    }
 
 ]
 
