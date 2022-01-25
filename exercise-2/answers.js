@@ -17,7 +17,3 @@ function getFullName(input) {
 function getFirstName(input) {
     // TODO: ให้ทำการตัดนามสกุลออกโดยใช้ indexOf() และ substring()
 }
-
-function splitName(input) {
-    // TODO: ให้ทำการแยก ชื่อต้นกับนามสกุล
-}

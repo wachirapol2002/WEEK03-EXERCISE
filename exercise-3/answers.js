@@ -22,26 +22,3 @@ function findTotal (input) {
     // input เป็น array ของตัวเลข
     // TODO: ให้หาผลบวกของเลขทั้งหมดใน input
 }
-
-function findMinMax (input) {
-    // input เป็น array ของตัวเลข
-    // TODO: ให้หาตัวเลขที่มากที่สุดและน้อยที่สุดใน input
-}
-
-function findBMI (input) {
-    // กำหนดให้ input เป็น Array ของ Object ในรูปแบบ
-    // [
-    //     {
-    //         name: "ABC DEF", // ชื่อ นามสกุล
-    //         height: 167, // ความสูง มีหน่วยเป็น cm
-    //         weight: 72 // น้ำหนัก มีหน่วยเป็น kg
-    //     },
-    //     {
-    //         name: "XYZ DEF", // ชื่อ นามสกุล
-    //         height: 194, // ความสูง มีหน่วยเป็น cm
-    //         weight: 60 // น้ำหนัก มีหน่วยเป็น kg
-    //     },
-    //     ...
-    // ]
-    // TODO: ให้คำนวณดัชนีมวลการ (Body Mass Index, bmi) ของแต่ละคน
-}
