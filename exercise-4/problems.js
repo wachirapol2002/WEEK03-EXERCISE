@@ -201,10 +201,25 @@ const problems = [
                 ], 
                 result: null
             },
+            
         ],
         run: removeByFilter
 
-    }
+    },
+    {
+        title: 'PROBLEM 4.6',
+        body: `
+            แก้ไขฟังก์ชัน \`replaceBySplice(input)\`  
+            <br><br>
+
+            ให้ใช้ฟังก์ชัน .splice() ในการ **เปลี่ยน (replace)** สมาชิกใน Array  
+            เรียงลำดับตัวเลขให้ถูกต้อง
+        `,
+        testcases: [
+            { input: [0, 1, 2, 3, 9, 5], expect: [0, 1, 2, 3, 4, 5], result: null },
+        ],
+        run: replaceBySplice
+    },    
 ]
 
 const app = new Vue({

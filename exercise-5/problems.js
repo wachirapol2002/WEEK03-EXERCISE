@@ -1,65 +1,63 @@
-const title = "WEEK 3 - Exercise 5, Array (2)"
+const title = "WEEK 3 - Exercise 5, Function"
 const problems = [
     {
         title: 'PROBLEM 5.1',
         body: `
-            แก้ไขฟังก์ชัน \`insertBySplice(input)\`  
-            <br><br>
+            แก้ไขฟังก์ชัน \`plus(input)\` 
 
-            ให้ใช้ฟังก์ชัน .splice() ในการ **แทรก (insert)** สมาชิกเข้าไปใน Array  
-            เรียงลำดับตัวเลขให้ถูกต้อง
+            วิธีทำ
+            1. สร้าง Function ที่รับ Arguments 2 ค่าเป็น number
+            2. นำ 2 ค่าที่ได้มา \`บวก\` กัน
+            3. Return ผลลัพธ์หลังจากบวกกัน
         `,
         testcases: [
-            { input: [0, 1, 2, 4], expect: [0, 1, 2, 3, 4], result: null },
+            { input: [1,2], expect: 3, result: null }
+
         ],
-        run: insertBySplice
+        run: plus
     },
     {
         title: 'PROBLEM 5.2',
         body: `
-            แก้ไขฟังก์ชัน \`removeBySplice(input)\`  
-            <br><br>
+            แก้ไขประเภทตัวแปรในฟังก์ชัน \`varLetConst()\`
+            
+            วิธีทำ
+            1. แก้ไขเฉพาะประเภทตัวแปรภายในฟังก์ชัน ให้ได้ผลลัพธ์ที่กำหนด
 
-            ให้ใช้ฟังก์ชัน .splice() ในการ **ลบ (remove)** สมาชิกออกจาก Array  
-            เรียงลำดับตัวเลขให้ถูกต้อง
+            <details>
+                <summary>Help</summary>
+                https://www.w3schools.com/js/js_scope.asp
+            </details>
         `,
         testcases: [
-            { input: [0, 1, 2, 3, 5, 4], expect: [0, 1, 2, 3, 4], result: null },
+            { input: null, expect: 41, result: null }
+
         ],
-        run: removeBySplice
+        run: varLetConst
     },
     {
         title: 'PROBLEM 5.3',
         body: `
-            แก้ไขฟังก์ชัน \`replaceBySplice(input)\`  
-            <br><br>
+            แก้ฟังก์ชัน \`chainfunction(input)\`
+            
+            วิธีทำ
+            1. จงใช้ String Method และการ Chain Function ให้ได้ผลลัพธ์ที่กำหนด
 
-            ให้ใช้ฟังก์ชัน .splice() ในการ **เปลี่ยน (replace)** สมาชิกใน Array  
-            เรียงลำดับตัวเลขให้ถูกต้อง
+            ตัวอย่างการทำ Chain Function 
+
+            \` variable.function1().function2() \`
+
+            <details>
+                <summary>Help</summary>
+                https://www.w3schools.com/js/js_string_methods.asp
+            </details>
         `,
         testcases: [
-            { input: [0, 1, 2, 3, 9, 5], expect: [0, 1, 2, 3, 4, 5], result: null },
+            { input: "   HeLLo WoRLd       ", expect: "HELLO world", result: null },
+            { input: "       WebPro soFuN   ", expect: "WEBPRO sofun", result: null },
         ],
-        run: replaceBySplice
-    },
-    {
-        title: 'PROBLEM 5.4',
-        body: `
-            แก้ไขฟังก์ชัน \`findAverage(input)\`  
-            <br><br>
-
-            ให้ใช้ฟังก์ชัน \`.map()\` และ/หรือ \`.filter()\` และ/หรือ \`.reduce()\` ในการหาค่าเฉลี่ยของตัวเลขทั้งหมดใน \`input\`  
-            (ให้ถือว่า \`null\` \`undefined\`, \`''\` เป็น 0)  
-        `,
-        testcases: [
-            {
-                input: [0, 31, 92, null, -24, undefined, null, '', 9, 26],
-                expect: 13.4,
-                result: null
-            },
-        ],
-        run: findAverage
-    },
+        run: chainfunction
+    }
 ]
 
 const app = new Vue({

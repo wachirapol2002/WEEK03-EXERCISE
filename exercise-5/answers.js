@@ -1,19 +1,30 @@
-function insertBySplice (input) {
-    // TODO: ให้ใช้ฟังก์ชัน .splice() ในการ **แทรก (insert)** สมาชิกเข้าไปใน Array  
-    // เรียงลำดับตัวเลขให้ถูกต้อง
+function plus(input){
+    // TODO: สร้าง function ที่นำ input จำนวน 2 ตัวมาบวกกัน
+    
 }
 
-function removeBySplice (input) {
-    // TODO: ให้ใช้ฟังก์ชัน .splice() ในการ **ลบ (remove)** สมาชิกออกจาก Array  
-    // เรียงลำดับตัวเลขให้ถูกต้อง
+function varLetConst() {
+    // TODO: แก้ประเภทตัวแปลใน function นี้ให้ค่าที่ return ออกมาตรงกับคำตอบ 41
+    // *** เปลี่ยนได้เฉพาะประเภทตัวแปล ***
+    const k = 5
+    var j = 30
+    const i = 0
+    for (var  j = 0; j <= 5; j++) {
+        i++
+    }
+    for (var  j = 0; j <= 5; j++) {
+        j++
+    }
+    console.log(j)
+    console.log(i)
+    console.log(k)
+    console.log(j + k + i)
+    return j + k + i
 }
 
-function replaceBySplice (input) {
-    // TODO: ให้ใช้ฟังก์ชัน .splice() ในการ **เปลี่ยน (replace)** สมาชิกใน Array  
-    // เรียงลำดับตัวเลขให้ถูกต้อง
-}
+function chainfunction(input){
+    // TODO: จงใช้ String method และการ chain function ให้ผลลัพธ์ตรงตามโจทย์
 
-function findAverage(input) {
-    // TODO: ให้ใช้ฟังก์ชัน .map() และ/หรือ .filter() และ/หรือ .reduce() ในการหาค่าเฉลี่ยของตัวเลขทั้งหมดใน input  
-    // (ให้ถือว่า null, undefined, '' เป็น 0)  
+    //เขียนต่อจาก Return ได้เลยครับ
+    return input
 }
